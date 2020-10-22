@@ -87,12 +87,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  background-color: #ffffff;
+}
 
+header{
+  width: 100vw;
+  height: 200px;
+  background-color: #091806;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
 
+header img{
+  width: 14%;
+  height: auto;
+  margin: 10px;
+}
 
+.heading h1{
+  color: #00E82C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
 
-   
+.heading img{
+  max-width: 100%;
+}
 
+footer{
+  width: 100vw;
+  height: 100px;
+  background-color: #091806;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  color: white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -266,4 +302,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
