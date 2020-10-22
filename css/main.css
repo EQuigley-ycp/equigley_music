@@ -107,16 +107,21 @@ header img{
   margin: 10px;
 }
 
-.heading h1{
+.main-content-home{
+  background-image: url('../img/EBTfhqWWkAE6FQJ.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  margin: 0px;
+}
+
+.main-content-home h1{
   color: #00E82C;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
-}
-
-.heading img{
-  max-width: 100%;
 }
 
 footer{
