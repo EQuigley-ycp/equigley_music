@@ -87,13 +87,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Added overflow-x: hidden to turn of horizontal scrolling */
 body{
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 header{
   width: 100vw;
-  height: 200px;
+  height: 180px;
   background-color: #091806;
   display: flex;
   justify-content: center;
@@ -102,26 +104,54 @@ header{
 }
 
 header img{
-  width: 14%;
+  width: 10%;
   height: auto;
   margin: 10px;
 }
 
+/* Added width: 100vw to make sure the background image is as wide as the browser window */
 .main-content-home{
   background-image: url('../img/EBTfhqWWkAE6FQJ.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 1100px;
   margin: 0px;
+  width: 100vw;
 }
 
+/* added margin: 0px to make sure there was no space around the h1 */
 .main-content-home h1{
   color: #00E82C;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
+  margin: 0px;
+}
+
+/* added in navigation styles to get the nav positioned and the links to line up */
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  right: 500px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  margin: 15px;
+}
+
+nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 48px;
 }
 
 footer{
