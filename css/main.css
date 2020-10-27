@@ -10,11 +10,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Sahitya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Sahitya', serif;
 }
 
 /*
@@ -104,7 +106,7 @@ header{
 }
 
 header img{
-  width: 10%;
+  width: 14%;
   height: auto;
   margin: 10px;
 }
@@ -118,6 +120,7 @@ header img{
   height: 1100px;
   margin: 0px;
   width: 100vw;
+
 }
 
 /* added margin: 0px to make sure there was no space around the h1 */
@@ -127,6 +130,7 @@ header img{
   justify-content: center;
   align-items: center;
   font-size: 70px;
+  font-family: 'Quantico', sans-serif;
   margin: 0px;
 }
 
@@ -138,6 +142,7 @@ nav{
   flex-direction: column;
   position: relative;
   right: 500px;
+  top: 80px;
 }
 
 nav ul{
@@ -152,6 +157,7 @@ nav ul li a{
   color: #ffffff;
   text-decoration: none;
   font-size: 48px;
+  font-family: 'Headland One', serif;
 }
 
 footer{
