@@ -115,23 +115,26 @@ header img{
 .main-content-home{
   background-image: url('../img/EBTfhqWWkAE6FQJ.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  height: 1100px;
+  height: 750px;
   margin: 0px;
   width: 100vw;
-
 }
 
 /* added margin: 0px to make sure there was no space around the h1 */
 .main-content-home h1{
-  color: #00E82C;
+  color: black;
+  -webkit-text-fill-color: #00E82C;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
   font-family: 'Quantico', sans-serif;
   margin: 0px;
+
 }
 
 /* added in navigation styles to get the nav positioned and the links to line up */
@@ -158,6 +161,52 @@ nav ul li a{
   text-decoration: none;
   font-size: 48px;
   font-family: 'Headland One', serif;
+}
+
+.main-content-about h1{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-family: 'Quantico', sans-serif;
+  margin: 0px;
+}
+
+.main-content-about p{
+  font-family: 'Sahitya', serif;
+  color: black;
+}
+
+.main-content-about .heading{
+  justify-content: center;
+  display: flex;
+  column-span: all;
+}
+
+.main-content-about h2{
+  column-count: 4;
+  column-gap: normal;
+  column-width: 100px;
+  display: inline-block;
+  padding: 20px
+}
+
+.main-content-about .biographies{
+  column-count: 4;
+  column-gap: normal;
+  column-width: 100px;
+  display: flex;
+}
+
+.main-content-tour h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: 'Quantico', sans-serif;
+    margin: 0px;
 }
 
 footer{
