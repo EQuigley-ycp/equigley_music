@@ -16,12 +16,23 @@
 </head>
 <body>
 
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">put link here</a>
+    <a href="#">put link here</a>
+    <a href="#">put link here</a>
+  </div>
+
+  <div id="main">
   <header>
       <img src="img/Dagames.png" alt="DaGames logo">
   </header>
 
 
   <section class="main-content">
+    <!-- Toggle Menu -->
+    <span onclick="openNav()">&#9776;</span>
+
    <!-- Contact Content-->
   </section>
 
@@ -29,9 +40,10 @@
   <footer>
     <p class="Copyright">DAGames 2020</p>
   </footer>
+  </div>
 
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/modernizr-3.11.2.min.js"></script>
   <script src="js/main.js"></script>
 
 

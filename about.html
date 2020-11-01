@@ -16,25 +16,54 @@
 </head>
 <body>
 
-  <header>
+  <!-- Off Canvas Navigation -->
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">put link here</a>
+    <a href="#">put link here</a>
+    <a href="#">put link here</a>
+  </div>
+
+  
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+
+    <header>
       <img src="img/Dagames.png" alt="DaGames logo">
   </header>
 
 
   <section class="main-content-about">
+    
+    <!-- Toggle Menu -->
+    <span onclick="openNav()">&#9776;</span>
+
    <h1>About</h1>
    <div class="heading">
      <p>DAGames (Diamond Armada) is a British team of people who make content regarding video games, Let's Plays, animations and songs. The channel began back in 2012.</p>
    </div>
    <div class="biographies">
+     <div class="biobox">
     <h2>Will Ryan</h2>
     <p>William Alexander Ryan (born: April 29, 1992 [age 28]) is a British YouTuber and the founder of Diamond Armada and DAGames. His work began in 1999 and continued to grow as the years went by, especially when a majority of his work was done on Newgrounds. He is also very well known for his time as a musician, from his first-ever band; Land of Hell, in 2005, to the days of Onyx Colony, all the way to his time now on DAGames and IRIS.</p>
+    </div>
+    
+    <div class="biobox">
     <h2>Chloe Eves</h2>
     <p>Chloe Ann Eves is an American voice actress and singer who is also a member of DAGames. Her first channel, ComicLoverGirlNo1, was started on January 7th, 2012, which featured Song Covers, AMVs (Anime Music Videos), and MEPs (Multi-Editor Projects).</p>
+    </div>
+
+    <div class="biobox">
     <h2>Chris Dell'Isola</h2>
     <p>Christopher John Dell'Isola II is an American film critic, comedian, editor, & filmmaker. His channel, Aficionados Chris, was created on Nov 23rd, 2010 in which he reviews movies, television shows, and occasionally video games in a comedic nature.</p>
+    </div>
+
+    <div class="biobox">
     <h2>Sean Webby</h2>
     <p>Sean Webby is an American animator and editor. His YouTube channel, SeanWebcomOfficial, was created on September 4th, 2009. Early content on the channel ranged from song parodies to comedic short films. It later became a film-based channel, where he would primarily post movie reviews. He was heavily involved in the online film reviewing community, and it was in that community where he became friends with Chris Dell'Isola.</p>
+    </div>
    </div>
 
   </section>
@@ -44,6 +73,9 @@
     <p class="Copyright">DAGames 2020</p>
   </footer>
 
+  </div>
+  
+  <!-- End Off Canvas Navigaion -->
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/main.js"></script>
