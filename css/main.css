@@ -217,16 +217,22 @@ nav ul li a{
 .TourDates{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
+  width: 100vw;
+  margin: 0 auto;
 }
 
-.cities{
-
+.cities, .dates {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 2%;
 }
 
 .main-content-tour ul{
   list-style-type: none;
+  text-align: left;
 }
 
 .main-content-tour ul li{
