@@ -269,6 +269,14 @@ form input{
   display: flex;
 }
 
+.contactinfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+}
+
 input[type=text], input[type=email]{
   width: 55%;
 }
@@ -306,7 +314,7 @@ footer{
   align-items: center;
   margin: 0px;
   color: white;
-  position: relative;
+  position: absolute;
   bottom: 0px;
 }
 

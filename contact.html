@@ -1,62 +1,46 @@
 <!doctype html>
 <html class="no-js" lang="">
-
 <head>
   <meta charset="utf-8">
   <title>DaGames Website</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
 </head>
-<body>
-
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="about.html">About</a>
-    <a href="tour.html">Tour</a>
-    <a href="contact.html">Contact</a>
-  </div>
-
-  <div id="main">
-    <header>
+<body style="background-color: #f2f2f2;">
+    <!-- Off Canvas Navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="about.html">About</a>
+      <a href="tour.html">Tour</a>
+      <a href="contact.html">Contact</a>
+    </div>
+<div id="main">
+  <header>
       <img src="img/Dagames.png" alt="DaGames logo">
-    </header>
-
-
+  </header>
   <section class="main-content-contact">
     <!-- Toggle Menu -->
     <span onclick="openNav()">&#9776;</span>
-
- <h1>Contact</h1>
-    <div class="TourDates">
-  <!-- Contact Content-->
-
-  <form>
-     <input type="text" name="name" placeholder="Name" required>
-     <input type="email" name="email" placeholder="Email Address" required>
-     <textarea type="textarea" name="message" placeholder="Your Message"></textarea>
-     <input type="submit" value="Submit!">
-  </form>
- </div>
+    <div class="contactinfo">
+        <!-- Contact Content-->
+        <h1>Contact</h1>
+        <form>
+           <input type="text" name="name" placeholder="Name" required>
+           <input type="email" name="email" placeholder="Email Address" required>
+           <textarea type="textarea" name="message" placeholder="Your Message"></textarea>
+           <input type="submit" value="Submit!">
+        </form>
+       </div>
   </section>
-
-
   <footer>
     <p class="Copyright">DAGames 2020</p>
   </footer>
-  </div>
-
-
+</div>
   <script src="js/modernizr-3.11.2.min.js"></script>
   <script src="js/main.js"></script>
-
-
 </body>
-
 </html>
