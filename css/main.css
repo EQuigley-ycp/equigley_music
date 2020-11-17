@@ -314,11 +314,19 @@ footer{
   align-items: center;
   margin: 0px;
   color: white;
-  position: absolute;
+  position: relative;
   bottom: 0px;
 }
 
+#fixedfooter{
+  position: fixed;
+}
+
 /* Off Canvas Menu - You will need to style to your liking */
+
+.hamburger{
+  font-size: 30px;
+}
 
 /* The side navigation menu */
 .sidenav {
@@ -367,6 +375,47 @@ footer{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+
+  nav {
+    right: 260px;
+}
+
+.main-content-tour ul li {
+  font-size: 30px;
+}
+
+.contactinfo {
+  position: relative;
+  left: -50px;
+}
+
+.heading p{
+  width: 80%;
+}
+
+.TourDates {
+  position: relative;
+  left: -35px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+
+
+
+
+
 }
 
 /* ==========================================================================
