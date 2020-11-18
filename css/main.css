@@ -318,9 +318,6 @@ footer{
   bottom: 0px;
 }
 
-#fixedfooter{
-  position: fixed;
-}
 
 /* Off Canvas Menu - You will need to style to your liking */
 
@@ -404,6 +401,10 @@ footer{
   left: -35px;
 }
 
+#fixedfooter{
+  position: fixed;
+}
+
 }
 
 
@@ -412,12 +413,97 @@ footer{
 
 @media screen and (max-width: 320px){
 
+  header{
+    width: 100vw;
+    height: 90px;
+  }
 
+  header img{
+    width: 27%;
+    height: auto;
+    margin: 10px;
+  }
 
-
-
+  nav {
+    right: 85px;
+    top: 30px;
 }
 
+nav ul li a{
+  font-size: 30px;
+}
+
+.main-content-home h1{
+  font-size: 27px;
+}
+
+.main-content-home{
+  height: 450px;
+  width: 100vw;
+}
+
+.main-content-about h1{
+  font-size: 60px;
+}
+
+.main-content-about .heading{
+  text-align: center;
+}
+
+.biographies{
+  flex-direction: column;
+}
+
+.biobox{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+  width: 85%;
+}
+
+.main-content-tour h1{
+    font-size: 45px;
+}
+
+.cities, .dates {
+  width: 95%;
+  margin: 1%;
+}
+
+.main-content-tour ul li{
+    margin: 15px;
+    font-size: 13px;
+}
+
+form input{
+  margin: 20px 70px;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 28px;
+  border: 4px solid white;
+}
+
+textarea{
+  margin: 20px 70px;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
+  width: 55%;
+  height: 55%;
+}
+
+footer{
+  width: 100vw;
+  height: 65px;
+}
+
+#fixedfooter{
+  position: fixed;
+}
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
