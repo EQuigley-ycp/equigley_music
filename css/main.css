@@ -476,18 +476,23 @@ nav ul li a{
     font-size: 13px;
 }
 
-form input{
-  margin: 20px 70px;
-  padding: 10px 30px;
+.main-content-contact h1 {
+  position: relative;
+  left: 40px;
+}
+
+form input {
+  margin: 9px 70px;
+  padding: 7px 34px;
   font-size: 20px;
   border-radius: 28px;
   border: 4px solid white;
 }
 
 textarea{
-  margin: 20px 70px;
-  padding: 10px 20px;
-  font-size: 24px;
+  margin: 9px 70px;
+  padding: 7px 34px;
+  font-size: 20px;
   border-radius: 28px;
   border: 4px solid white;
   width: 55%;
